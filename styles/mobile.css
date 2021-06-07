@@ -15,8 +15,9 @@ body {
     position: fixed;
     width: 100%;
     z-index: 3;
-    /* display:flex;
-    justify-content: space-between; */
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
   }
   
   .header ul {
@@ -24,7 +25,8 @@ body {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: pink;
+    display: flex;
   }
   
   .header li a {
