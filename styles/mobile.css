@@ -11,12 +11,11 @@ body {
   
   .header {
     background-color: #fff;
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 10%);
     position: fixed;
     width: 100%;
     z-index: 3;
-    /* display:flex;
-    justify-content: space-between; */
+    padding-top: 1em 0;
   }
   
   .header ul {
