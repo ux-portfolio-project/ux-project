@@ -1,0 +1,17 @@
+
+body {
+    text-align: center;
+    font-family: monospace; /* take this out or change it*/
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    width: 75%;
+    margin:auto;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
