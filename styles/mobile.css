@@ -154,7 +154,10 @@ body {
 
 @media (max-width: 685px){
 .header {
-
-color: rgb(212, 19, 29);
+  border-bottom: 5px black solid;
 }
+}
+
+hr {
+  width: 100%;
 }
