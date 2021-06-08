@@ -11,11 +11,11 @@ body {
   
   .header {
     background-color: #fff;
-    box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 10%);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
     z-index: 3;
-    padding-top: 1em 0;
+    
   }
 
   .header ul {
@@ -23,7 +23,8 @@ body {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: rgb(140, 195, 240);
+    display: flex;
   }
   
   .header li a {
@@ -115,3 +116,39 @@ body {
   .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
   }
+
+  /*Vojislav ADDED*/
+.div-1{
+  font-size: 2rem;
+  color: white;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url(/Great-Court-Foster-and-Partners-British-Museum-2000.jpg) ; 
+}
+/*Vojislav ADDED*/
+.div-2{
+  font-size: 2rem;
+  color: black;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+/*Vojislav ADDED*/
+.div-3{
+  font-size: 2rem;
+  color: black;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 685px){
+.header {
+
+color: rgb(212, 19, 29);
+}
+}
