@@ -8,14 +8,12 @@ body {
   }
   
 
-.header {
-    background-color: #fff;
+  .header {
+    background-color:darkgray;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    position: fixed;
+  
     width: 100%;
     z-index: 3;
-    
-    
   }
 
   .header ul {
@@ -25,6 +23,7 @@ body {
     overflow: hidden;
     background-color: rgb(140, 195, 240);
     display: flex;
+    font-weight: bold;
   }
   
   .header li a {
@@ -117,7 +116,20 @@ body {
     top: 0;
   }
 
+
+
 img {
-    width: 325px;
+    width: 85%;
     border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 15px 25px;
 }
