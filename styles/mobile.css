@@ -11,13 +11,11 @@ body {
   
 
   .header {
-    background-color: #fff;
+    background-color:darkgray;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
     z-index: 3;
-    
-    
   }
   
   .header ul {
@@ -27,6 +25,7 @@ body {
     overflow: hidden;
     background-color: rgb(140, 195, 240);
     display: flex;
+    font-weight: bold;
   }
   
   .header li a {
@@ -124,37 +123,169 @@ body {
   }
 
   /*Vojislav ADDED*/
-.div-1{
+
+
+/* .div-1{
   font-size: 2rem;
   color: white;
   background-size: cover;
   display:flex;
   align-items: center;
   justify-content: center;
-  background-image:url(/Great-Court-Foster-and-Partners-British-Museum-2000.jpg) ; 
-}
+  background-image:url ; 
+} */
+
 /*Vojislav ADDED*/
-.div-2{
+/* .div-2{
   font-size: 2rem;
   color: black;
   background-size: cover;
   display:flex;
   align-items: center;
   justify-content: center;
+  
 }
 /*Vojislav ADDED*/
-.div-3{
+/* .div-3{
   font-size: 2rem;
   color: black;
   background-size: cover;
   display:flex;
   align-items: center;
   justify-content: center;
-}
+} */ 
 
-@media (max-width: 685px){
-.header {
+@media (max-width: 700px){
+  .simages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-color: rgb(212, 19, 29);
-}
+  .simages .intro-text {
+    margin-top: -10px;
+    height: 10vh;
+    border-top:1px rgb(185,182, 182) solid;
+    border-bottom: 1px rgb(185,182, 182) solid;
+  }
+
+  .simages .intro-text p{
+    padding: 1em;
+    font-size: 12px;
+  }
+
+  .simages .div-1 {
+    height: 35vh;
+  }
+
+  .simages .div-2 {
+    height:15vh;
+  }
+
+  .simages .div-3 {
+    height: 25vh; 
+  }
+
+  .simages div{
+    background-color: rgb(185,182, 182);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:85%;
+    border-radius: 10px;
+
+  }
+
+  }
+
+
+@media (max-width: 960px){
+  .simages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .simages .intro-text {
+    margin-top: -10px;
+    height: 10vh;
+    border-top:1px rgb(185,182, 182) solid;
+    border-bottom: 1px rgb(185,182, 182) solid;
+  
+    
+  }
+  .simages .intro-text p{
+    padding: 1em;
+    font-size: 12px;
+    
+  }
+
+  .simages .div-1 {
+    height: 35vh;
+   
+  }
+  .simages .div-2 {
+    height:15vh;
+    
+  }
+  .simages .div-3 {
+    height: 25vh;
+    
+  }
+  .simages div{
+    background-color: rgb(185,182, 182);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:85%;
+    border-radius: 10px;
+  }
+  }
+  
+
+@media (max-width: 1200px){
+
+  .simages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .simages .intro-text {
+    margin-top: -10px;
+    height: 10vh;
+    border-top:1px rgb(185,182, 182) solid;
+    border-bottom: 1px rgb(185,182, 182) solid;
+  
+    
+  }
+  .simages .intro-text p{
+    padding: 1em;
+    font-size: 12px;
+    
+  }
+
+  .simages .div-1 {
+    height: 35vh;
+   
+  }
+  .simages .div-2 {
+    height:15vh;
+    
+  }
+  .simages .div-3 {
+    height: 25vh;
+    
+  }
+  .simages div{
+    background-color: rgb(185,182, 182);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:85%;
+    border-radius: 10px;
+  }
+
+  
 }
