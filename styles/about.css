@@ -143,8 +143,6 @@ body {
 }
 
 
-
-
 form{
   display: flex;
   flex-direction:column;
@@ -178,6 +176,9 @@ button{
   border-radius: 3px;
 }
 
+h3 {
+  background: linear-gradient(180deg, yellow)
+}
 
 
 @media screen and (min-width: 960px){
