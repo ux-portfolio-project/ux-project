@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 .header {
     background-color: rgb(145, 72, 72);
     box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 10%);
@@ -112,36 +114,128 @@
   }
 
 body {
-    text-align: center;
-    font-family: monospace; /* take this out or change it*/
-    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    
 }
 
-.aboutPage {
+form{
+    display: flex;
+    flex-direction:column;
+    width: 75%;
+    margin:auto;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+/* About Page */
+main{
+  background-color: rgb(0 51 255 / 83%);  
+  height: 100vh;
+}
+
+.sct-1 {
     background-color: rgba(206, 206, 206, 0.933);
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 3em;
+    
 }
-
-.div1 {
+.box-1 {
     background-color: cadetblue;
+    /* background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border-radius: 10px;
+    height: 10em;
+    width: 17em;
+    margin: 2em 2em;
+    box-shadow: #2f5455 5px 5px
+  }
+  
+  .box-2 {
+    display: flex;
+    flex-direction: column;
+    margin: -6em 2em 0 0;
+    align-self: flex-end;
+  }
+
+  .box-2 p{
+    background-color: orange;
+    justify-content: space-evenly;
+    margin: 1em 0 0 0px;
+    width: 15em;
+    border-radius: 5px;
+    box-shadow: #6b4646 3px 5px;
+    display: flex;
+  }
+
+.sct-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 2em;
 }
 
-.div2 {
-    background-color: darkgoldenrod;
+.div3 { 
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1em;
 }
-
-.div3 {
-    background-color: darkolivegreen;
+.div3 img{
+  height: 5vh;
+  justify-content: space-evenly;
 }
-
+  
 .div4 {
-    background-color: darksalmon;
+  background: rgb(94, 94, 255);
+  /* background-image: url(../about.images/campaign-creators-gMsnXqILjp4-unsplash.jpg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    width: 35vh;
+    height: 10em;
+    border-radius: 10px;
+    display: flex;
+    line-height: 2em;
+    color: white;
+    box-shadow: -5px -5px;
+    box-shadow: #7f7fc5 -5px -5px;
 }
+
+.div4 p{
+  margin: 2em -17px;
+}
+
+/* .div4 p:hover {
+ font-size: 2em;
+} */
 
 .div5 {
-    background-color: darkslategray;
+    background-color: rgb(0 144 255);
+    margin-top: 3em;
+    display: flex;
+    align-self: flex-end;
+    height: 10em;
+    width: 35vh;
+    border-radius: 5px;
+    color: white;
+    box-shadow: #02599d 5px 5px;
+  }
+
+.div5 p{
+  text-align: right;
+  line-height: 2em;
+  align-self: flex-end;
+  margin: 0 -20px -48px 0;
 }
 
+.inLife{
+  font-size: 1.5em;
+}
 
 form{
   display: flex;

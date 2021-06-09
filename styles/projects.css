@@ -1,35 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
     margin: 0;
     background: #eee;
-    display: flex;
-    flex-direction: column;
+    font-family: 'Montserrat';
   }
   
   a {
     color: #000;
   }
   
-  /* header */
-  
 
   .header {
-    background-color: rgb(145, 72, 72);
-    box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 10%);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     width: 100%;
     z-index: 3;
-    position: fixed;
-    padding-top: 1em 0;
-    height: 7vh;
-
   }
-  
+
   .header ul {
     margin: 0;
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
-    font-weight: bolder;
+    display: flex;
+    font-weight: bold;
   }
   
   .header li a {
@@ -80,7 +75,6 @@ body {
     width: 18px;
   }
   
-  .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
     background: #333;
     content: '';
@@ -89,16 +83,13 @@ body {
     position: absolute;
     transition: all .2s ease-out;
     width: 100%;
+    top: -5px;
   }
   
   .header .menu-icon .navicon:before {
     top: 5px;
   }
-  
-  .header .menu-icon .navicon:after {
-    top: -5px;
-  }
-  
+
   /* menu btn */
   
   .header .menu-btn {
@@ -126,19 +117,87 @@ body {
     top: 0;
   }
 
-  .simages {
-    /* border: 5px solid rgb(255, 174, 0); */
-    background-color: white;
+
+
+img {
+    width: 85%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+p {
+  margin: 0 30px;
+}
+
+@media (min-width: 960px) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+  header {
     display: flex;
-    height: 92vh;  /* Vojislav ADDED*/
+    justify-content: space-between;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 7vh;
-
+    font-size: 1.5em;
+    padding: 0 115px 0 35px;
+  }
+  .div1 {
+    display: flex;
+    margin: 30px;
+  }
+  .div2 {
+    display: flex;
+    margin: 30px;
+  }
+  .div3 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 30px;
+  }
+  .div4 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 30px;
+  }
+  .div3 p {
+    padding: 0 35px 0 115px;
+  }
+  .div4 p {
+    padding: 0 35px 0 115px;
+  }
+  img {
+    width: 35%;
+    height: 65%;
+  }
 }
 
-.simages div{
-    /* border: 4px solid blue; */
-    width: 100%;
-    height: 33vh; /*Vojislav ADDED*/
-}
+
