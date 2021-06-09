@@ -1,20 +1,29 @@
-.header {
-    background-color: rgb(145, 72, 72);
-    box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 10%);
-    width: 100%;
-    z-index: 3;
-    position: fixed;
-    padding-top: 1em 0;
-    height: 7vh;
-
+body {
+    margin: 0;
+    background: #eee;
   }
   
+  a {
+    color: #000;
+  }
+  
+
+  .header {
+    background-color:darkgray;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  
+    width: 100%;
+    z-index: 3;
+  }
+
   .header ul {
     margin: 0;
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: rgb(140, 195, 240);
+    display: flex;
+    font-weight: bold;
   }
   
   .header li a {
@@ -65,7 +74,6 @@
     width: 18px;
   }
   
-  .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
     background: #333;
     content: '';
@@ -74,16 +82,13 @@
     position: absolute;
     transition: all .2s ease-out;
     width: 100%;
+    top: -5px;
   }
   
   .header .menu-icon .navicon:before {
     top: 5px;
   }
-  
-  .header .menu-icon .navicon:after {
-    top: -5px;
-  }
-  
+
   /* menu btn */
   
   .header .menu-btn {
@@ -111,46 +116,51 @@
     top: 0;
   }
 
-body {
-    text-align: center;
-    font-family: monospace; /* take this out or change it*/
-}
 
-form{
-    display: flex;
-    flex-direction:column;
-    width: 75%;
-    margin:auto;
-}
 
-input, textarea {
+img {
+    width: 85%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
     margin-bottom: 20px;
-    border-radius: 3px;
 }
 
-.aboutPage {
-    background-color: rgba(206, 206, 206, 0.933);
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+p {
+
+}
+
+@media (min-width: 960px) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+  header {
     display: flex;
+    justify-content: space-between;
+  }
+  p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.div1 {
-    background-color: cadetblue;
-}
-
-.div2 {
-    background-color: darkgoldenrod;
-}
-
-.div3 {
-    background-color: darkolivegreen;
-}
-
-.div4 {
-    background-color: darksalmon;
-}
-
-.div5 {
-    background-color: darkslategray;
 }
 
 
