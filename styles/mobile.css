@@ -191,7 +191,6 @@ a {
   background-color:rgb(255, 255, 255);
 }
 
-
 .link {
   position: absolute;
   width: 100%;
@@ -256,8 +255,6 @@ background-color: rgb(136, 176, 191);
 display:none;
 }
 
-
-/* DESKTOP DESKTOP DESKTOP*/
 
 @media (min-width: 960px){
 
@@ -370,7 +367,7 @@ width:90vw;
 }
 /* GRID */
 .simages{
-/* background-color: teal; */
+  /* background-color: teal; */
 display: grid;
 align-self: center;
 justify-items: center;
@@ -385,8 +382,6 @@ grid-template-areas:
 "div-4 div-3"
 "div-4 div-5";
 width:90%;
-}
-
 }
 
 @media (min-width:1500px){
