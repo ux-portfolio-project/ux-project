@@ -121,6 +121,7 @@ body {
 }
 
 /* About Page */
+
 .sct-1 {
     display: flex;
     flex-direction: column;
@@ -134,8 +135,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover; */
     border-radius: 10px;
-    height: 10em;
-    width: 17em;
+    height: 20vh;
+    width: 35%;
     margin: 2em 2em;
     box-shadow: #2f5455 5px 5px
   }
@@ -144,14 +145,14 @@ body {
     display: flex;
     flex-direction: column;
     margin: -6em 2em 0 0;
-    align-self: flex-end;
+    align-items: flex-end;
   }
 
   .box-2 p{
     background-color: orange;
     justify-content: space-evenly;
     margin: 1em 0 0 0px;
-    width: 15em;
+    width: 65%;
     border-radius: 5px;
     box-shadow: #6b4646 3px 5px;
     display: flex;
@@ -171,6 +172,7 @@ body {
 .div3 img{
   height: 5vh;
   justify-content: space-evenly;
+  margin-top: 1vh;
 }
   
 .div4 {
@@ -178,12 +180,11 @@ body {
   /* background-image: url(../about.images/campaign-creators-gMsnXqILjp4-unsplash.jpg);
     /* background-repeat: no-repeat;
     background-size: cover; */
-    width: 35vh;
-    height: 10em;
+    width: 90%;
+    height: 30vh;
     border-radius: 10px;
     display: flex;
     line-height: 2em;
-    box-shadow: -5px -5px;
     box-shadow: #7f7fc5 -5px -5px;
 }
 
@@ -200,8 +201,8 @@ body {
     margin: 3em 0;
     display: flex;
     align-self: flex-end;
-    height: 10em;
-    width: 35vh;
+    height: 30vh;
+    width: 90%;
     border-radius: 5px;
     box-shadow: #02599d 5px 5px;
   }
@@ -214,11 +215,11 @@ body {
 }
 
 .inLife{
-  font-size: 1.5em;
+  font-size: 3vh;
 }
 
 .atWork{
-  font-size: 1.5em;
+  font-size: 3vh;
 }
 
 form{
@@ -261,7 +262,7 @@ h3 {
 /* Contact Section */
 #contacts {
   display: flex;
-  width: 93%;
+  width: 90%;
   margin: auto;
   background-color: #eee;
   padding: 10px 0 0em 0;
@@ -273,6 +274,7 @@ h3 {
 h2 {
   padding-bottom: 15px;
   color: #77a;
+  align-self: center;
 }
 
 .form-and-buttons {
@@ -429,6 +431,7 @@ img:hover{
     padding: 10px;
     box-shadow: 8px 8px #77a;
     border-radius: 3px;
+    width: 70%
   }
   
   h2 {
