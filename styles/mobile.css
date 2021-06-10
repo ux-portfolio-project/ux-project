@@ -15,12 +15,13 @@ a {
 
 /* HEADER */
 .header {
+  background-color: rgba(255, 255, 255,90%);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
   z-index: 3;
   padding-top: 1em 0;
-  height: 7vh;
+  height: 65px;
 }
 /* HEADER MENU */
 
@@ -74,12 +75,12 @@ a {
 /* LOGO LOGO LOGO*/
 
 .header .logo {
-  background: url(..//Home-images/Logo.png);
+  background: url(..//Home-images/LogoTransparent.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   width:300px;
-  height: 45px;
+  height: 40px;
   display: block;
   float: left;
   font-size: 2.5em;
