@@ -8,7 +8,6 @@
     position: fixed;
     padding-top: 1em 0;
     height: 7vh;
-
   }
   
   .header ul {
@@ -229,67 +228,31 @@ body {
   font-size: 3vh;
 }
 
-form{
-  display: flex;
-  flex-direction:column;
-  width: 80%;
-  margin:auto;
-}
 
-input {
-  margin-bottom: 20px;
-  border-radius: 3px;
-  height: 30px;
-  
-}
-
-textarea {
-  margin-bottom: 20px;
-  border-radius: 3px;
-}
-
-
-#social-icons img {
-  width: 80px;
-}
-
-button{
-  width: 70px;
-  margin: auto;
-  margin-bottom: 10px;
-  padding: 10px;
-  font-family: inherit;
-  border-radius: 3px;
-}
-
-h3 {
-  background: linear-gradient(180deg, yellow)
-}
 
 /* Contact Section */
+
 #contacts {
-  display: flex;
   width: 90%;
   margin: auto;
+  margin-bottom: 50px;
   background-color: #eee;
   padding: 10px 0 0em 0;
   box-shadow: 8px 8px #77a;
   border-radius: 3px;
-  flex-direction: column;
 }
 
-h2 {
+#contacts h2 {
   padding-bottom: 15px;
   color: #77a;
-  align-self: center;
+  text-align: center;
 }
 
 .form-and-buttons {
-    display: flex; 
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 0 0 -10px 0;
   }
 
 .contact-OR {
@@ -297,28 +260,52 @@ h2 {
     width: 25px;
   }
 
-  form {
-    width: 40%;
+  form{
+    display: flex;
+    flex-direction:column;
+    width: 70%;
+    margin:auto;
     margin: 0;
   }
 
-.social-icons {
+  input {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    height: 30px;
+  }
+  
+  textarea {
+    margin-bottom: 20px;
+    border-radius: 3px;
+  }
+
+  .social-icons {
     display: flex;
-    flex-wrap: wrap;
-    width: 160px;
-    height: 160px;
+    justify-content: space-evenly;
+    padding: 20px;
   }
 
 .social-icons img {
     width: 75px;
   }
 
-img:hover{
+.social-icons img:hover{
     background:#ddd;
     border-radius: 3px;
   }
 
+  button{
+    width: 70px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: inherit;
+    border-radius: 3px;
+  }
+
 /* Media Query */
+
+
 @media screen and (min-width: 960px){
   #about{
     /* background-color: blue; */
@@ -435,13 +422,15 @@ img:hover{
   font-size: 1.5em;
 }
 
+/* CONTACTS MEDIA QUERY */
 #contacts {
     margin: auto;
+    margin-bottom: 50px;
     background-color: #eee;
     padding: 10px;
     box-shadow: 8px 8px #77a;
     border-radius: 3px;
-    width: 70%
+    width: 40%
   }
   
   h2 {
