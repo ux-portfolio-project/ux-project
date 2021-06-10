@@ -12,7 +12,6 @@ a {
 }
 /* HEADER */
 .header {
-  background-color:rgb(255, 255, 255);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
@@ -21,6 +20,7 @@ a {
   height: 7vh;
 }
 /* HEADER MENU */
+
 .header ul {
   height:12vh;
   margin: 0;
@@ -34,16 +34,36 @@ a {
   font-weight: bold;
   border: none;
 }
-.header li a {
+
+.header li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:60px;
+}
+
+
+.header li a{
+  color:rgb(242, 142, 133);
   display: block;
-  padding: 20px 20px;
+  font-weight: bold;
+  /* padding: 20px 20px; */
   text-decoration: none;
   transition: all 0.2s linear;
+  border-bottom: 10px solid rgba(136, 176, 191, 75%);
 }
+
+/* .header li a::content{
+  color: aquamarine;
+  
+} */
+
 .header li a:hover{
-  color:rgb(93, 120, 196);
+  border-bottom: 10px solid rgba(2242, 142, 133);
+  color:rgb(136, 176, 191);
   letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 20px;
+  padding-bottom: 5px;
 }
 /* .header .menu-btn:hover */
  
@@ -81,6 +101,7 @@ a {
   position: relative;
   user-select: none;
 }
+
 .header .menu-icon .navicon {
   background: #333;
   display: block;
@@ -89,6 +110,7 @@ a {
   transition: background .2s ease-out;
   width: 18px;
 }
+
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
   background: #333;
@@ -99,32 +121,41 @@ a {
   transition: all .2s ease-out;
   width: 100%;
 }
+
 .header .menu-icon .navicon:before {
   top: 5px;
 }
+
 .header .menu-icon .navicon:after {
   top: -5px;
 }
+
 /* menu btn */
 .header .menu-btn {
   display: none;
 }
+
 .header .menu-btn:checked ~ .menu {
   max-height: 240px;
 }
+
 .header .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
 }
+
 .header .menu-btn:checked ~ .menu-icon .navicon:before {
   transform: rotate(-45deg);
 }
+
 .header .menu-btn:checked ~ .menu-icon .navicon:after {
   transform: rotate(45deg);
 }
+
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
+
 .simages {
   display: flex;
   flex-direction: column;
@@ -134,6 +165,7 @@ a {
   margin-top: 7vh;
   font-weight: bold;
 }
+
 .simages .intro-text {
   display: flex;
   align-items: center;
@@ -149,13 +181,14 @@ a {
   font-size: 1rem;
   font-weight:bold;
 }
-/* INSERTED PIC FOR A TEST */
+/* INSERTED PIC FOR A TEST*/
 .simages .div-1{
   height: 35vh;
   background: url(../Pictures/responsive-web-design.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color:rgb(255, 255, 255);
 }
 
 .link {
@@ -172,14 +205,18 @@ a {
   background-repeat: no-repeat;
   background-size:cover;
   background-position:center;
+  background-color:rgb(255, 255, 255);
 }
+
 .simages .div-3{
   height: 25vh;
   background: url(../Pictures/responsive-web-design.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color:rgb(255, 255, 255);
 }
+
 .simages div{
   /* background-color: rgb(170, 168, 168); */
   display: flex;
@@ -192,12 +229,28 @@ a {
   position: relative;
 }
 /* HOVER DIVS FOR HTML AND MOBILE SIZE*/
-.simages div:hover{
-color:rgb(100, 141, 160);
+.simages .div-1:hover{
+color:rgb(255, 255, 255);
 background:none;
-background-color: rgb(218, 169, 146);
-
+background-color: rgb(136, 176, 191);
 }
+
+.simages .div-2:hover{
+  color:rgb(255, 255, 255);
+  background:none;
+  background-color: rgb(242, 142, 133);
+  
+  }
+
+.simages .div-3:hover{
+    color:rgb(255, 255, 255);
+    background:none;
+    background-color: rgb(136, 176, 191);
+    
+    }
+
+
+
 .simages .div-4,.simages .div-5{
 display:none;
 }
@@ -232,9 +285,6 @@ display:none;
   float: left;
 }
 
-.header li a {
-  padding: 20px 30px;
-}
 
 .header .menu {
   clear: none;
@@ -250,6 +300,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 .simages .div-1 {
 height:35vh;
 grid-area: div-1;
@@ -265,6 +316,22 @@ height:35vh;
 grid-area: div-3;
 /* background: none; PRACTICE */
 }
+
+.simages .div-5:hover{
+  color:rgb(255, 255, 255);
+  background:none;
+  background-color: rgb(242, 142, 133);
+  }
+
+  .simages .div-4:hover{
+    color:rgb(255, 255, 255);
+    background:none;
+    background-color: rgb(242, 142, 133);
+    }
+
+
+
+
 .simages .div-4{
 background: url(../Pictures/responsive-web-design.png);
 background-repeat: no-repeat;
