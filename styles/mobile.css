@@ -227,8 +227,6 @@ display:none;
 }
 
 
-
-
 @media (min-width: 960px){
 
 .header ul{
@@ -240,22 +238,25 @@ display:none;
 .header li {
   float: left;
 }
+
 .header li a {
   padding: 20px 30px;
 }
+
 .header .menu {
   clear: none;
   float: right;
   max-height: none;
 }
+
 .header .menu-icon {
   display: none;
 }
+
 header {
   display: flex;
   justify-content: space-between;
 }
-
 
 .simages .div-1 {
 height:35vh;
@@ -316,7 +317,7 @@ width:90vw;
 /* GRID */
 
 .simages{
-/* background-color: teal; */
+  /* background-color: teal; */
 display: grid;
 align-self: center;
 justify-items: center;
@@ -331,6 +332,4 @@ grid-template-areas:
 "div-4 div-3"
 "div-4 div-5";
 width:90%;
-}
-
 }
