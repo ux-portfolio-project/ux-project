@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 body {
   margin: 0;
@@ -7,11 +9,12 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgba(134, 134, 139, 1);
 }
   
   a {
-    color: #000;
+    font-family: 'IBM Plex Mono', monospace;
   }
 
 img {
@@ -24,6 +27,20 @@ img {
     margin-bottom: 20px;
 }
 
+.insta img {
+  border-radius: 251.5px;
+  width: 115px;
+  height: 110px;
+  margin-top: 80px;
+}
+
+img.wide {
+  width: 375px;
+}
+
+.div2 img {
+}
+
 h1 {
   background: linear-gradient(95.61deg, #D8569D 6.69%, #9354E3 97.6%);
   -webkit-background-clip: text;
@@ -31,11 +48,42 @@ h1 {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   text-align: center;
-  margin-top: 10vh;
+  font-family: 'IBM Plex Mono', monospace;
 }
-
+h2 {
+  background: linear-gradient(95.61deg, #D8569D 6.69%, #9354E3 97.6%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+}
+h3 {
+  margin: 3px 35px;
+  font-size: 15px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: lighter;
+}
+h3.pink {
+  margin-top: 15px;;
+  color: #DE4280;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+}
+h3.blue {
+  color: #5756CB;
+}
+h4 {
+  font-size: 5px;
+  margin-bottom: 0;
+  margin-top: 50px;
+  color: gray;
+  padding-right: 100px;
+}
 p {
   margin: 20px 30px;
+  font-size: 15px;
 }
 
 .insta p {
@@ -186,6 +234,15 @@ p {
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+footer img {
+  margin-top: 0;
+  width: 35px;
+}
 @media (min-width: 960px){
 
   #about{
@@ -241,17 +298,36 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-size: 20px;
+  }
+  h3.pink {
+    margin-top: 35px;
+  }
+  h4 {
+    margin-top: 125px;
   }
   .insta p {
+    width: 460px;
   }
   .div1 {
     display: flex;
     margin: 30px;
   }
+
+img.hand {
+ width: 883px;
+}
+
+img.wide {
+  width: 880px;
+}
   .div2 {
     display: flex;
     margin: 30px;
   }
+.div1 img{
+  width: 400px;
+}
   .div3 {
     display: flex;
     flex-direction: row-reverse;
@@ -273,9 +349,18 @@ h1 {
     height: 65%;
   }
 }
-@media (min-width:1500px){
+@media (min-width:1440px){
 
   .header .logo{
     left: 42%;
+  }
+  body {
+    margin: 0 100px;
+  }
+  h3 {
+    margin-left: 321px;
+  }
+  .div1 p {
+    margin-left: 292px;
   }
 }
