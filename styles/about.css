@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-
-
 .header {
     background-color: rgb(145, 72, 72);
     box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 10%);
@@ -10,7 +8,6 @@
     position: fixed;
     padding-top: 1em 0;
     height: 7vh;
-
   }
   
   .header ul {
@@ -123,18 +120,8 @@ body {
     
 }
 
-form{
-    display: flex;
-    flex-direction:column;
-    width: 75%;
-    margin:auto;
-}
-
-input, textarea {
-    margin-bottom: 20px;
-    border-radius: 3px;
-}
 /* About Page */
+
 .sct-1 {
     display: flex;
     flex-direction: column;
@@ -148,8 +135,8 @@ input, textarea {
     background-repeat: no-repeat;
     background-size: cover; */
     border-radius: 10px;
-    height: 10em;
-    width: 17em;
+    height: 20vh;
+    width: 35%;
     margin: 2em 2em;
     box-shadow: #2f5455 5px 5px
   }
@@ -158,14 +145,14 @@ input, textarea {
     display: flex;
     flex-direction: column;
     margin: -6em 2em 0 0;
-    align-self: flex-end;
+    align-items: flex-end;
   }
 
   .box-2 p{
     background-color: orange;
     justify-content: space-evenly;
     margin: 1em 0 0 0px;
-    width: 15em;
+    width: 65%;
     border-radius: 5px;
     box-shadow: #6b4646 3px 5px;
     display: flex;
@@ -185,6 +172,7 @@ input, textarea {
 .div3 img{
   height: 5vh;
   justify-content: space-evenly;
+  margin-top: 1vh;
 }
   
 .div4 {
@@ -192,13 +180,11 @@ input, textarea {
   /* background-image: url(../about.images/campaign-creators-gMsnXqILjp4-unsplash.jpg);
     /* background-repeat: no-repeat;
     background-size: cover; */
-    width: 35vh;
-    height: 10em;
+    width: 90%;
+    height: 30vh;
     border-radius: 10px;
     display: flex;
     line-height: 2em;
-    color: white;
-    box-shadow: -5px -5px;
     box-shadow: #7f7fc5 -5px -5px;
 }
 
@@ -212,13 +198,12 @@ input, textarea {
 
 .div5 {
     background-color: rgb(0 144 255);
-    margin-top: 3em;
+    margin: 3em 0;
     display: flex;
     align-self: flex-end;
-    height: 10em;
-    width: 35vh;
+    height: 30vh;
+    width: 90%;
     border-radius: 5px;
-    color: white;
     box-shadow: #02599d 5px 5px;
   }
 
@@ -226,66 +211,123 @@ input, textarea {
   text-align: right;
   line-height: 2em;
   align-self: flex-end;
-  margin: 0 -20px -48px 0;
+  margin: 0 -1em -3em 0;
 }
 
 .inLife{
-  font-size: 1.5em;
+  font-size: 3vh;
 }
 
-form{
-  display: flex;
-  flex-direction:column;
-  width: 80%;
-  margin:auto;
-}
-
-input {
-  margin-bottom: 20px;
-  border-radius: 3px;
-  height: 30px;
-  
-}
-
-textarea {
-  margin-bottom: 20px;
-  border-radius: 3px;
+.atWork{
+  font-size: 3vh;
 }
 
 
-#social-icons img {
-  width: 80px;
-}
 
-button{
-  width: 70px;
+/* Contact Section */
+
+#contacts {
+  width: 90%;
   margin: auto;
-  margin-bottom: 10px;
-  padding: 10px;
-  font-family: inherit;
+  margin-bottom: 50px;
+  background-color: #eee;
+  padding: 10px 0 0em 0;
+  box-shadow: 8px 8px #77a;
   border-radius: 3px;
 }
 
-h3 {
-  background: linear-gradient(180deg, yellow)
+#contacts h2 {
+  padding-bottom: 15px;
+  color: #77a;
+  text-align: center;
 }
+
+.form-and-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.contact-OR {
+    font-size: 18px;
+    width: 25px;
+  }
+
+  form{
+    display: flex;
+    flex-direction:column;
+    width: 70%;
+    margin:auto;
+    margin: 0;
+  }
+
+  input {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    height: 30px;
+  }
+  
+  textarea {
+    margin-bottom: 20px;
+    border-radius: 3px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+
+.social-icons img {
+    width: 75px;
+  }
+
+.social-icons img:hover{
+    background:#ddd;
+    border-radius: 3px;
+  }
+
+  button{
+    width: 70px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: inherit;
+    border-radius: 3px;
+  }
 
 /* Media Query */
-@media screen and (min-width: 960px){
 
-  .header ul{
-   background-color: rgb(255, 255, 255);
-   height:7vh;
-   width:50%;
+
+@media screen and (min-width: 960px){
+  #about{
+    /* background-color: blue; */
+    margin-right: -65%;
   }
+  
+  .header ul{
+   display:flex;
+   justify-content: space-between; 
+   background-color: rgb(255, 255, 255);
+   padding:0 3em;
+   height:7vh;
+   width:95%;
+   
+   /* position: relative; */
+  } 
+  
+  .header .logo{
+    left: 35%;
+    position: absolute;
+    z-index:1;
+  }
+  
   
   .header li {
     float: left;
   }
   
-  .header li a {
-    padding: 20px 30px;
-  }
   
   .header .menu {
     clear: none;
@@ -302,21 +344,6 @@ h3 {
     justify-content: space-between;
   }
   
-    
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  
-  .header .menu-icon {
-    display: none;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
   
   .sct-1 {
     display: flex;
@@ -330,29 +357,27 @@ h3 {
     /* background-image: url();
     background-repeat: no-repeat;
     background-size: cover; */
-    height: 16em;
-    width: 85vh;
+    height: 15em;
+    width: 35vh;
   }
   
+  .box-2{
+    align-self: flex-start;
+    margin-left: 10em;
+  }
   .box-2 p{
-    width: 40em;
+    width: 30em;
     line-height: 30px;
+    margin-top: 1em;
   }
 
 .sct-2 {
-  display: flex;
-  flex-direction: column;
-  margin: 10px 2em;
 }
 
-.div3 { 
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 1em;
+.div3 {
+  margin: 1em;
 }
 .div3 img{
-  height: 5vh;
-  justify-content: space-evenly;
 }
   
 .div4 {
@@ -360,14 +385,8 @@ h3 {
   /* background-image: url(../about.images/campaign-creators-gMsnXqILjp4-unsplash.jpg);
     /* background-repeat: no-repeat;
     background-size: cover; */
-    width: 35vh;
-    height: 10em;
-    border-radius: 10px;
-    display: flex;
-    line-height: 2em;
-    color: white;
-    box-shadow: -5px -5px;
-    box-shadow: #7f7fc5 -5px -5px;
+    width: 55vh;
+    height: 20em;
 }
 
 .div4 p{
@@ -375,37 +394,34 @@ h3 {
 }
 
 .div5 {
-    background-color: rgb(0 144 255);
-    margin-top: 3em;
-    display: flex;
-    align-self: flex-end;
-    height: 10em;
-    width: 35vh;
-    border-radius: 5px;
-    color: white;
-    box-shadow: #02599d 5px 5px;
+    height: 20em;
+    width: 55vh;
   }
 
 .div5 p{
   text-align: right;
   line-height: 2em;
   align-self: flex-end;
-  margin: 0 -20px -48px 0;
+  margin: 0 -20px -30px 0;
 }
 
 .inLife{
   font-size: 1.5em;
 }
 
-  
-  
-  #contact {
-    width: 25%;
+.atWork{
+  font-size: 1.5em;
+}
+
+/* CONTACTS MEDIA QUERY */
+#contacts {
     margin: auto;
+    margin-bottom: 50px;
     background-color: #eee;
     padding: 10px;
     box-shadow: 8px 8px #77a;
     border-radius: 3px;
+    width: 40%
   }
   
   h2 {
@@ -413,7 +429,7 @@ h3 {
     color: #77a;
   }
   
-    #form-and-buttons {
+  .form-and-buttons {
       display: flex; 
       flex-direction: row-reverse;
       justify-content: space-evenly;
@@ -421,7 +437,7 @@ h3 {
       margin: 0;
     }
   
-    #contact-OR {
+  .contact-OR {
       font-size: 18px;
       width: 25px;
     }
@@ -431,18 +447,18 @@ h3 {
       margin: 0;
     }
   
-    #social-icons {
+  .social-icons {
       display: flex;
       flex-wrap: wrap;
       width: 160px;
       height: 160px;
     }
   
-    #social-icons img {
+  .social-icons img {
       width: 75px;
     }
   
-    img:hover{
+  img:hover{
       background:#ddd;
       border-radius: 3px;
     }
