@@ -22,8 +22,9 @@ a {
   z-index: 3;
   padding-top: 1em 0;
   height: 65px;
-}
 /* HEADER MENU */
+}
+
 
 .header ul {
   height:12vh;
@@ -36,7 +37,7 @@ a {
   align-items: center;
   justify-content: space-around;
   font-weight: bold;
-  border: none;
+  border:none;
 }
 
 .header li{
