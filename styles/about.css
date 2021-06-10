@@ -232,14 +232,21 @@ body {
   margin-bottom: 50px;
   background-color: #eee;
   padding: 10px 0 0em 0;
-  box-shadow: 8px 8px #77a;
-  border-radius: 3px;
+  box-shadow: 8px 8px #89b0bf;
+  border-radius: 10px;
 }
 
 #contacts h2 {
-  padding-bottom: 15px;
-  color: #77a;
   text-align: center;
+    font-size: 2em;
+    padding-bottom: 15px;
+    background-color: #fff;
+    background-image: linear-gradient(180deg, #89b0bf, #f38e86);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 .form-and-buttons {
@@ -264,13 +271,13 @@ body {
 
   input {
     margin-bottom: 20px;
-    border-radius: 3px;
+    border-radius: 10px;
     height: 30px;
   }
   
   textarea {
     margin-bottom: 20px;
-    border-radius: 3px;
+    border-radius: 10px;
   }
 
   .social-icons {
@@ -285,7 +292,7 @@ body {
 
 .social-icons img:hover{
     background:#ddd;
-    border-radius: 3px;
+    border-radius: 10px;
   }
 
   button{
@@ -294,7 +301,7 @@ body {
     margin-bottom: 10px;
     padding: 10px;
     font-family: inherit;
-    border-radius: 3px;
+    border-radius: 10px;
   }
 
 /* Media Query */
@@ -419,14 +426,14 @@ body {
     margin-bottom: 50px;
     background-color: #eee;
     padding: 10px;
-    box-shadow: 8px 8px #77a;
-    border-radius: 3px;
+    box-shadow: 8px 8px #89b0bf;
+    border-radius: 10px;
     width: 40%
   }
   
   h2 {
+    font-size: 1.5em;
     padding-bottom: 15px;
-    color: #77a;
   }
   
   .form-and-buttons {
@@ -460,9 +467,6 @@ body {
   
   img:hover{
       background:#ddd;
-      border-radius: 3px;
+      border-radius: 10px;
     }
-
-
-  
   }

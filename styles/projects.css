@@ -24,6 +24,20 @@ img {
     margin-bottom: 20px;
 }
 
+.insta img {
+  border-radius: 251.5px;
+  width: 115px;
+  height: 110px;
+  margin-top: 80px;
+}
+
+img.wide {
+  width: 375px;
+}
+
+.div2 img {
+}
+
 h1 {
   background: linear-gradient(95.61deg, #D8569D 6.69%, #9354E3 97.6%);
   -webkit-background-clip: text;
@@ -31,11 +45,28 @@ h1 {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   text-align: center;
-  margin-top: 10vh;
 }
-
+h2 {
+  background: linear-gradient(95.61deg, #D8569D 6.69%, #9354E3 97.6%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  text-align: center;
+}
+h3 {
+  margin: 3px 35px;
+  font-size: 15px;
+}
+h3.pink {
+  color: #DE4280;
+}
+h3.blue {
+  color: #5756CB;
+}
 p {
   margin: 20px 30px;
+  font-size: 12px;
 }
 
 .insta p {
@@ -248,10 +279,21 @@ h1 {
     display: flex;
     margin: 30px;
   }
+
+img.hand {
+ width: 883px;
+}
+
+img.wide {
+  width: 880px;
+}
   .div2 {
     display: flex;
     margin: 30px;
   }
+.div1 img{
+  width: 400px;
+}
   .div3 {
     display: flex;
     flex-direction: row-reverse;
