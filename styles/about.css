@@ -439,18 +439,21 @@ body {
   position: relative;
   right: 70vh;
   line-height: 5vh;
+  width: 30vw;
 }
 
 
 .div5 {
-    height: 20em;
-    width: 55vh;
+  height: 20em;
+  width: 70vw;
+  background-size: 269px;
   }
 
 .div5 p{
   line-height: 5vh;
-  position: relative;
-  right: 10vh;
+    position: relative;
+    width: 28vh;
+    left: 42vw
 }
 
 .inLife{
