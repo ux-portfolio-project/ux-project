@@ -1,25 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,400;1,200&display=swap');
+
+
 body {
   margin: 0;
   background: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
 }
 a {
   color: #000;
 }
+
 /* HEADER */
 .header {
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
   z-index: 3;
   padding-top: 1em 0;
-  height: 7vh;
-}
+  height: 65px;
 /* HEADER MENU */
+}
+
 
 .header ul {
   height:12vh;
@@ -32,7 +37,7 @@ a {
   align-items: center;
   justify-content: space-around;
   font-weight: bold;
-  border: none;
+  border:none;
 }
 
 .header li{
@@ -71,12 +76,12 @@ a {
 /* LOGO LOGO LOGO*/
 
 .header .logo {
-  background: url(..//Home-images/Logo.png);
+  background: url(..//Home-images/LogoTransparent.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   width:300px;
-  height: 45px;
+  height: 40px;
   display: block;
   float: left;
   font-size: 2.5em;
@@ -88,10 +93,13 @@ a {
 
 /* menu about project contact */
 .header .menu {
+  
   clear: both;
   max-height: 0;
-  transition: max-height .5s ease-in-out;
+  transition: max-height 0.5s ease-in-out;
+  
 }
+
 /* menu icon |||*/
 .header .menu-icon {
   cursor: pointer;
@@ -163,7 +171,7 @@ a {
   height: 92vh;
   justify-content: space-around;
   margin-top: 7vh;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .simages .intro-text {
@@ -174,17 +182,17 @@ a {
   height: 10vh;
   border-top:1px rgb(185,182, 182) solid;
   border-bottom: 1px rgb(185,182, 182) solid;
-  font-weight:bold;
+  /* font-weight:bold; */
 }
 .simages .intro-text p{
   padding: 2em;
-  font-size: 1rem;
-  font-weight:bold;
+  font-size: 0.8rem;
+  /* font-weight:bold; */
 }
 /* INSERTED PIC FOR A TEST*/
 .simages .div-1{
   height: 35vh;
-  background: url(../Pictures/responsive-web-design.png);
+  background: url(..//Home-images/photo-1611262588024-d12430b98920.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -201,7 +209,7 @@ a {
   }
 .simages .div-2{
   height:15vh;
-  background: url(../Pictures/responsive-web-design.png);
+  background: url(..//Home-images/pexels-picjumbocom-196645.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   background-position:center;
@@ -210,24 +218,28 @@ a {
 
 .simages .div-3{
   height: 25vh;
-  background: url(../Pictures/responsive-web-design.png);
+  background: url(..//Home-images/christopher-gower-m_HRfLhgABo-unsplash\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color:rgb(255, 255, 255);
 }
+/* ALL DIVS */
 
 .simages div{
   /* background-color: rgb(170, 168, 168); */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width:85%;
-  border-radius: 10px;
-  transition: all 1s linear;
-  cursor: pointer;
-  position: relative;
+color:rgba(255, 255, 255, 0%);
+font-size: 1rem;
+display: flex;
+align-items:center;
+justify-content:center;
+width:85%;
+border-radius: 10px;
+transition: all 0.5s linear;
+cursor: pointer;
+position: relative;
 }
+
 /* HOVER DIVS FOR HTML AND MOBILE SIZE*/
 .simages .div-1:hover{
 color:rgb(255, 255, 255);
@@ -236,18 +248,22 @@ background-color: rgb(136, 176, 191);
 }
 
 .simages .div-2:hover{
-  color:rgb(255, 255, 255);
-  background:none;
-  background-color: rgb(242, 142, 133);
+color:rgb(255, 255, 255);
+background:none;
+background-color: rgb(242, 142, 133);
+
   
-  }
+}
+
+
 
 .simages .div-3:hover{
-    color:rgb(255, 255, 255);
-    background:none;
-    background-color: rgb(136, 176, 191);
+  color:rgb(255, 255, 255);
+  background:none;
+  background-color: rgb(136, 176, 191);
     
-    }
+  }
+
 
 
 
@@ -275,25 +291,25 @@ display:none;
 } 
 
 .header .logo{
-  left: 35%;
-  position: absolute;
-  z-index:1;
+left: 35%;
+position: absolute;
+z-index:1;
 }
 
 
 .header li {
-  float: left;
+float: left;
 }
 
 
 .header .menu {
-  clear: none;
-  float: right;
-  max-height: none;
+clear: none;
+float: right;
+max-height: none;
 }
 
 .header .menu-icon {
-  display: none;
+display: none;
 }
 
 header {
@@ -318,31 +334,31 @@ grid-area: div-3;
 }
 
 .simages .div-5:hover{
-  color:rgb(255, 255, 255);
-  background:none;
-  background-color: rgb(242, 142, 133);
-  }
+color:rgb(255, 255, 255);
+background:none;
+background-color: rgb(242, 142, 133);
+}
 
-  .simages .div-4:hover{
-    color:rgb(255, 255, 255);
-    background:none;
-    background-color: rgb(242, 142, 133);
-    }
+.simages .div-4:hover{
+color:rgb(255, 255, 255);
+background:none;
+background-color: rgb(242, 142, 133);
+}
 
 
 
 
 .simages .div-4{
-background: url(../Pictures/responsive-web-design.png);
-background-repeat: no-repeat;
+background: url(..//Home-images/rahul-chakraborty-_0pc8HIIICs-unsplash.jpg);
 background-size: cover;
 background-position: center;
 height:33vh;
 display:flex;
 grid-area: div-4;
 }
+
 .simages .div-5{
-background: url(../Pictures/responsive-web-design.png);
+background: url(..//Home-images/daniel-jensen-tQpypKA92k8-unsplash.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -350,12 +366,14 @@ height:15vh;
 display:flex;
 grid-area: div-5;
 }
+
 .simages .intro-text p{
+width:50vw;
 text-align: center;
-font-weight: bold;
-color:rgb(38, 51, 42);
-font-size:2rem;
+color:rgb(0, 0, 0);
+font-size:1.5rem;
 }
+
 .simages .intro-text{
 grid-area:span;
 /* background-color: lawngreen; */
@@ -385,8 +403,8 @@ width:90%;
 }
 
 @media (min-width:1500px){
-
   .header .logo{
     left: 42%;
   }
+}
 }
