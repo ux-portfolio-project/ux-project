@@ -186,7 +186,7 @@ a {
 }
 .simages .intro-text p{
   padding: 2em;
-  font-size: 0.8rem;
+  font-size: 1rem;
   /* font-weight:bold; */
 }
 /* INSERTED PIC FOR A TEST*/
@@ -371,7 +371,7 @@ grid-area: div-5;
 width:50vw;
 text-align: center;
 color:rgb(0, 0, 0);
-font-size:1.5rem;
+font-size:2rem;
 }
 
 .simages .intro-text{
