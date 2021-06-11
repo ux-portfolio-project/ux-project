@@ -353,11 +353,11 @@ img.wide {
 @media (min-width:1440px){
 
   .header .logo{
-    left: 36%;
-    width: 422px;
+    left: 37%;
+    width: 320px;
   }
   .header li a{
-    font-size: 30px;
+    font-size: 16px;
   }
   .insta img {
     width: 137px;
