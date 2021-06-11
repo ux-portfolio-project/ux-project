@@ -189,7 +189,7 @@ body {
       justify-content: center;
       align-items: center;
     }
-  
+     
   .contact-OR {
       font-size: 18px;
       width: 25px;
@@ -261,7 +261,7 @@ body {
        } 
        
        .header .logo{
-       left: 35%;
+       left: 41%;
        position: absolute;
        z-index:1;
        }
