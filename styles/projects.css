@@ -75,7 +75,7 @@ h3.blue {
   color: #5756CB;
 }
 h4 {
-  font-size: 5px;
+  font-size: 8px;
   margin-bottom: 0;
   margin-top: 50px;
   color: gray;
@@ -91,12 +91,13 @@ p {
 }
 
 .header {
+  background-color: rgba(255, 255, 255,90%); /*added rgba 90%*/
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
   z-index: 3;
   padding-top: 1em 0;
-  height: 7vh;
+  height: 65px; /*changed hight from 7vh to 65px */
 }
 /* HEADER MENU */
 
@@ -150,11 +151,11 @@ p {
 /* LOGO LOGO LOGO*/
 
 .header .logo {
-  background: url(..//Home-images/Logo.png);
+  background: url(..//Home-images/LogoTransparent.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width:300px;
+  width:250px;
   height: 45px;
   display: block;
   float: left;
@@ -352,15 +353,89 @@ img.wide {
 @media (min-width:1440px){
 
   .header .logo{
-    left: 42%;
+    left: 36%;
+    width: 422px;
+  }
+  .header li a{
+    font-size: 30px;
+  }
+  .insta img {
+    width: 137px;
+    height: 136px;
+  }
+  .insta p {
+    width: 664px;
   }
   body {
     margin: 0 100px;
   }
+  p {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 37px;
+  }
+  h2 {
+    font-size: 30px;
+  }
   h3 {
-    margin-left: 321px;
+    margin-left: 192px;
+    font-size: 20px;
+  }
+  h3.pink {
+    font-size: 20px;
+  }
+  h4 {
+    font-size:15px;
+    margin-bottom: 0;
+    margin-top: 50px;
+    color: gray;
+    padding-right: 120px;
   }
   .div1 p {
-    margin-left: 292px;
+    margin-left: 162px;
   }
+  .div1 img {
+    width: 500px;
+  }
+  section.onboarding {
+    margin: 0 0px 0 108px;
+  }
+  section.info {
+    margin: 0 0px 0 108px;
+  }
+  .div2 p {
+    margin-left: 162px;
+    margin-right: 83px;
+  }
+  .div2 img {
+    height: 427px;
+    width: 212px;
+  }
+  .div3 p {
+    padding-left: 0px;
+  }
+  .div3 img {
+    width: 660px;
+  }
+  .div3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .div4 img {
+    width: 446px;
+  }
+  section.metrics {
+    margin-left: 109px;
+  }
+img.hand{
+  width: 1162px;
+}
+img.wide {
+  width: 1196px;
+}
+footer img {
+  width: 50px;
+}
+
 }
