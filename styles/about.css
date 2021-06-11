@@ -232,21 +232,19 @@ body {
 .div5 {
     background-image: url(../about-images/skateboard.png);
     background-repeat: no-repeat;
-    background-size: 200px;
+    background-size: 75vw;
     margin: 3em 0;
     display: flex;
     align-self: center;
     height: 30vh;
     width: 90%;
-    border-radius: 5px;
   }
 
 .div5 p{
   line-height: 1.5em;
   align-self: center;
   margin-left: -3vh;
-  max-width: 35vh;
-  width: 25vh;
+  width: 45vh;
 }
 
 .inLife{
