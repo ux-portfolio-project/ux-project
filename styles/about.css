@@ -38,7 +38,6 @@ body {
   width:60px;
 }
 
-
 .header li a{
   color:rgb(242, 142, 133);
   display: block;
@@ -49,11 +48,6 @@ body {
   border-bottom: 10px solid rgba(136, 176, 191, 75%);
 }
 
-/* .header li a::content{
-  color: aquamarine;
-  
-} */
-
 .header li a:hover{
   border-bottom: 10px solid rgba(2242, 142, 133);
   color:rgb(136, 176, 191);
@@ -61,23 +55,19 @@ body {
   font-size: 20px;
   padding-bottom: 5px;
 }
-/* .header .menu-btn:hover */
- 
+ /* LOGO LOGO LOGO*/
 
-/* LOGO LOGO LOGO*/
-
-.header .logo {
+ .header .logo {
   background: url(..//Home-images/Logo.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width:36vh;
+  width: 55vw;
   height: 4.8vh;
   display: block;
   float: left;
   padding: 9px 10px;
 }
-
 
 /* menu about project contact */
 .header .menu {
@@ -151,99 +141,106 @@ body {
 
 
 /* About Page */
-.sct-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-top: 3em;
+
+main{
+  background:  rgba(137, 176, 191, 0.15);
 }
 
-.box-1 {
-    background-image: url(../about-images/pexels-andrea-piacquadio-941693.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    min-width: 30vh;
-    max-width: 400px;
-    height: 20vh;
-    width: 60%;
-    margin: 2em 2em;
-    box-shadow: #dbdbdb -10px -15px 0px;
+.sct-1 {
+ padding-top: 3em;
+}
+
+.box-2 img {
+  width: 65vw;
+  height: auto;
+  border-radius: 10px;
+  margin: 4vh 4vh;
+  box-shadow: -16px -15px #dddddd;
+}
+
+.box-2 {
+    height: 37vh;
   }
   
-  .box-2 {
-    display: flex;
-    flex-direction: column;
-    margin: -9em 2em 0 0;
-    align-items: flex-end;
-    max-width: 700px;
-  }
-
-  .box-2 p{
-    justify-content: space-evenly;
-    margin: 1em 0 0 0px;
-    width: 65%;
-    border-radius: 5px;
-    display: flex;
+.box-2 p{
+  border-radius: 5px;
+  position: relative;
+  bottom: 14vh;
+  left: 12vw;
+  width: 65vw;
+  line-height: 1.5em;
   }
 
 .sct-2 {
-  display: flex;
-  flex-direction: column;
-  margin: 10px 1em;
+  margin-left: 2vh;
+  
+}
+
+.manOnLaptop{
+  position: relative;
+  width: 35vw;
+  margin-top: 1em;
+  left: 33vw;
+  border-radius: 1em;
+}
+
+.manAndWoman{
+  position: relative;
+  bottom: 9vh;
+  width: 35vw;
+  border-radius: 15px;
 }
 
 .div3 { 
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 1em;
-  max-width: 750px;
+  margin: 3vh 10vw 1vh 0em;
 }
+
+
 .div3 img{
-  height: 5vh;
-  justify-content: space-evenly;
-  margin-top: 1vh;
+  width: 8vw;
 }
   
 .div4 {
-  background: rgb(94, 94, 255);
-  /* background-image: url(../about.images/campaign-creators-gMsnXqILjp4-unsplash.jpg);
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-    width: 90%;
-    height: 30vh;
-    border-radius: 10px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    line-height: 1.5em;
-    box-shadow: #7f7fc5 -5px -5px;
+  width: 50vw;
+  height: 35vh;
+  line-height: 2em;
 }
 
 .div4 p{
-  max-width: 35vh;
-  align-self: center;
-  width: 25vh;
-  margin-right: -4vh;
-  text-align: right;
+  position: relative;
+  bottom: 43vh;
 }
+
+
 .div5 {
-    background-color: rgb(0 144 255);
-    margin: 3em 0;
-    display: flex;
-    align-self: center;
-    height: 30vh;
-    width: 90%;
-    border-radius: 5px;
-    box-shadow: #02599d 5px 5px;
+  margin-top: 3em;
+  border-radius: 5px;
   }
+
+.manSkateboard{
+  width: 40vw;
+    border-radius: 10px;
+    position: relative;
+    right: 13vw;
+    top: 13vh;
+}
+
+.manSitting{
+  osition: relative;
+  top: 13vh;
+  border-radius: 10px;
+  left: 2vw;
+  width: 40vw;
+}
+
 
 .div5 p{
   line-height: 1.5em;
-  align-self: center;
-  margin-left: -3vh;
-  max-width: 35vh;
-  width: 25vh;
+  width: 50vw;
+  position: relative;
+  bottom: 30vh;;
 }
 
 .inLife{
@@ -254,88 +251,21 @@ body {
   font-size: 3vh;
 }
 
-/* Contact Section */
-
-#contacts {
-  width: 90%;
-  margin: auto;
-  margin-bottom: 50px;
-  background-color: #eee;
-  padding: 10px 0 0em 0;
-  box-shadow: 8px 8px #77a;
-  border-radius: 3px;
+.reggieGreeting{
+  font-size: 24px;
 }
 
-#contacts h2 {
-  padding-bottom: 15px;
-  color: #77a;
-  text-align: center;
-}
 
-.form-and-buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
-.contact-OR {
-    font-size: 18px;
-    width: 25px;
-  }
-
-  form{
-    display: flex;
-    flex-direction:column;
-    width: 70%;
-    margin:auto;
-    margin: 0;
-  }
-
-  input {
-    margin-bottom: 20px;
-    border-radius: 3px;
-    height: 30px;
-  }
-  
-  textarea {
-    margin-bottom: 20px;
-    border-radius: 3px;
-  }
-
-  .social-icons {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-  }
-
-.social-icons img {
-    width: 75px;
-  }
-
-.social-icons img:hover{
-    background:#ddd;
-    border-radius: 3px;
-  }
-
-  button{
-    width: 70px;
-    margin: auto;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-family: inherit;
-    border-radius: 3px;
-  }
-
-/* Media Query */
+  /* Media Query */
 @media screen and (min-width: 960px){
 
-  #about{
+#about{
     /* background-color: blue; */
     margin-right: -65%;
   }
   
-  .header ul{
+.header ul{
    display:flex;
    justify-content: space-between; 
    background-color: rgb(255, 255, 255);
@@ -346,111 +276,78 @@ body {
    /* position: relative; */
   } 
   
-  .header .logo{
+.header .logo{
     left: 35%;
     position: absolute;
     z-index:1;
   }
   
   
-  .header li {
+.header li {
     float: left;
   }
   
   
-  .header .menu {
+.header .menu {
     clear: none;
     float: right;
     max-height: none;
   }
   
-  .header .menu-icon {
+.header .menu-icon {
     display: none;
   }
   
-  header {
+header {
     display: flex;
     justify-content: space-between;
   }
-  
 
-  main {
-    margin: 0 3vh;
-  }
+main {}
 
-  .sct-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 3em;
-    align-items: center;
+.sct-1 {
+  height: 55vh;
 }
-
-.box-1 {
-    background-color: #30bcff;
-    /* background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover; */
-    height: 35vh;
-    max-width: 120vh;
-    margin-top: 7vh;
-    width: 40vw;
-  }
   
 .box-2{
-  width: 45vw;
-  max-width: 120vh;
-  align-self: flex-end;
-  position: relative;
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   }
 
 .box-2 p{
+  align-self: flex-end;
   line-height: 3vh;
-  margin-top: 3vh;
-  width: 40%;
-  min-width: 45vh;
-  bottom: 15vh;
   position: relative;
-  background-color: rgba(0,0,0,0);
-  box-shadow: none;
-  }
+  bottom: 40vh;
+  left: 47vh;
+  font-size: 2vh;
+  text-align: justify;
+}
 
 .sct-2{
-  align-items: flex-end;
+  margin: 1vh 5vh 0;
 }
 
-  .div3 {
-  margin: 1em;
-}
-.div3 img{
-}
-  
 .div4 {
   /* background-image: url(../about.images/campaign-creators-gMsnXqILjp4-unsplash.jpg);
     /* background-repeat: no-repeat;
     background-size: cover; */
-    width: 55vh;
+    width: 55vw;
     height: 20em;
-    align-self: center;
 }
 
 .div4 p{
-  position: relative;
-  right: 70vh;
   line-height: 5vh;
 }
 
-
 .div5 {
     height: 20em;
-    width: 55vh;
+    width: 55vw;
   }
 
 .div5 p{
   line-height: 5vh;
-  position: relative;
-  right: 10vh;
 }
 
 .inLife{
@@ -461,56 +358,25 @@ body {
   font-size: 1.5em;
 }
 
-/* CONTACTS MEDIA QUERY */
-#contacts {
-    margin: auto;
-    margin-bottom: 50px;
-    background-color: #eee;
-    padding: 10px;
-    box-shadow: 8px 8px #77a;
-    border-radius: 3px;
-    width: 40%
-  }
-  
-  h2 {
-    padding-bottom: 15px;
-    color: #77a;
-  }
-  
-.form-and-buttons {
-      display: flex; 
-      flex-direction: row-reverse;
-      justify-content: space-evenly;
-      align-items: center;
-      margin: 0;
-    }
-  
-  .contact-OR {
-      font-size: 18px;
-      width: 25px;
-    }
-  
-  form {
-      width: 40%;
-      margin: 0;
-    }
-  
-  .social-icons {
-      display: flex;
-      flex-wrap: wrap;
-      width: 160px;
-      height: 160px;
-    }
-  
-  .social-icons img {
-      width: 75px;
-    }
-  
-  img:hover{
-      background:#ddd;
-      border-radius: 3px;
-    }
-    .reggieGreeting{
+.reggieGreeting{
       font-size: 5vh;
     }
-  }
+
+.manOnLaptop{
+  border-radius: 10px;
+  box-shadow: -10px -10px #9090ff;
+}
+      
+.manAndWoman{
+  border-radius: 10px;
+  box-shadow: 10px 10px #9090ff;
+}
+
+.manSitting{}
+      
+.manSkateboard{}    
+ 
+
+}
+
+
